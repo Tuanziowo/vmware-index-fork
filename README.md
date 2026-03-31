@@ -10,6 +10,24 @@
 
 This project indexes VMware (now Broadcom) product download information. It fetches and parses XML metadata files to provide direct download URLs.
 
+## Docker Compose Deployment
+
+This project can be deployed as a single Next.js service with Docker Compose.
+
+```bash
+docker compose up -d --build
+```
+
+After startup, open:
+
+[`http://localhost:3000`](http://localhost:3000)
+
+To stop the service:
+
+```bash
+docker compose down
+```
+
 ## Base URL
 
 The primary source for product metadata is:

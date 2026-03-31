@@ -34,7 +34,7 @@ interface VersionMetaEntry {
   type: string; // 'core', 'packages', or other type inferred from path
 }
 
-const BASE_XML_URL = "https://softwareupdate-prod.broadcom.com/cds/vmw-desktop/";
+const BASE_XML_URL = "https://softwareupdate.vmware.com/cds/vmw-desktop/";
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
