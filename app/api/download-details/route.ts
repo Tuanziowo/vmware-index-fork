@@ -5,7 +5,7 @@ import { parseStringPromise } from 'xml2js';
 
 const gunzip = promisify(zlib.gunzip);
 
-const BASE_XML_URL = "https://softwareupdate-prod.broadcom.com/cds/vmw-desktop/";
+const BASE_XML_URL = "https://softwareupdate.vmware.com/cds/vmw-desktop/";
 
 // Interface for the parsed XML structure (simplified)
 // Note: xml2js typically creates arrays for elements, even if there's only one.
